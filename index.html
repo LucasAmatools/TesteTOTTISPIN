@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tottispin Academia de Tênis - História do tênis no Brasil e no mundo, Ranking de Interequipes, e muito mais.">
+    <title>Tottispin - Academia de Tênis</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+
+    <!-- ===================== BOTÃO VOLTAR AO TOPO ===================== -->
+    <button id="btnTopo" class="scroll-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ===================== HEADER / NAVEGAÇÃO ===================== -->
+    <header class="cabecalho" id="cabecalho">
+        <nav class="nav-container">
+            <a href="#home" class="logo" id="logoLink">
+                <img src="_imagens/logo.jpeg" alt="Logo Tottispin" class="logo-img" id="logoImg">
+                <span class="logo-texto">Tottispin</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link ativo"><i class="fas fa-home"></i> Home</a></li>
+<li><a href="#mundo" class="nav-link"><i class="fas fa-globe-americas"></i> História</a></li>
+                <li><a href="#brasil" class="nav-link"><i class="fas fa-flag"></i> Brasil</a></li>
+                <li><a href="#sobre-tottispin" class="nav-link"><i class="fas fa-heart"></i> Sobre a Tottispin</a></li>
+                <li><a href="#ranking" class="nav-link"><i class="fas fa-trophy"></i> Ranking</a></li>
+                <li><a href="#galeria" class="nav-link"><i class="fas fa-images"></i> Galeria</a></li>
+                <li><a href="#contato" class="nav-link nav-cta"><i class="fas fa-envelope"></i> Fale Conosco</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===================== HERO ===================== -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="hero-background"></div>
+            <div class="hero-conteudo">
+                <div class="hero-imagem-wrapper reveal">
+                    <img src="_imagens/tottispin-academia-de-tenis.jpg" alt="Academia Tottispin" class="hero-imagem">
+                </div>
+                <span class="hero-tag reveal">🏆 Desde a paixão pelo tênis</span>
+                <h1 class="hero-titulo reveal">
+                    Tottispin <br>
+                    <span class="destaque-verde">Academia</span> <span class="destaque-amarelo">de Tênis</span>
+                </h1>
+                <p class="hero-subtitulo reveal">
+                    O tênis é mais do que um esporte: é tradição, estratégia, saúde e paixão.
+                    Aqui, cada saque é o começo de uma nova história.
+                </p>
+                <div class="hero-botoes reveal">
+                    <a href="#ranking" class="btn btn-verde"><i class="fas fa-trophy"></i> Ver Ranking</a>
+                    <a href="#contato" class="btn btn-contorno"><i class="fas fa-envelope"></i> Fale Conosco</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== INTRODUÇÃO ===================== -->
+        <section class="introducao secao" id="sobre">
+            <div class="container">
+                <div class="introducao-texto reveal">
+                    <span class="secao-tag">Bem-vindo à Tottispin</span>
+                    <h2 class="secao-titulo">O Tênis: um esporte de <span class="destaque-verde">tradição</span>, <span class="destaque-amarelo">estratégia</span> e <span class="destaque-azul">paixão</span></h2>
+                    <p>
+                        O tênis é muito mais do que uma modalidade esportiva. É um esporte que combina técnica,
+                        estratégia, preparo físico, concentração e respeito ao adversário. Em cada ponto disputado,
+                        os jogadores são desafiados a tomar decisões rápidas, desenvolver habilidades motoras e
+                        fortalecer valores como disciplina, persistência e espírito esportivo.
+                    </p>
+                    <p>
+                        Praticado por pessoas de todas as idades, o tênis proporciona inúmeros benefícios para a
+                        saúde física e mental. Além de melhorar o condicionamento cardiovascular, a coordenação
+                        motora, o equilíbrio e os reflexos, também contribui para o desenvolvimento da autoconfiança,
+                        do raciocínio e da socialização. É um esporte que pode ser aprendido na infância e praticado
+                        durante toda a vida.
+                    </p>
+                </div>
+                <div class="introducao-imagem reveal">
+                    <img src="_imagens/tottispin-academia-de-tenis.jpg" alt="Tottispin Academia de Tênis">
+                    <div class="imagem-badge">
+                        <i class="fas fa-medal"></i>
+                        <span>+30 anos <br> de história</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== HISTÓRIA NO MUNDO ===================== -->
+<section class="historia-mundo secao" id="mundo">
+            <div class="container">
+                <div class="secao-cabecalho reveal">
+                    <span class="secao-tag">No Mundo</span>
+                    <h2 class="secao-titulo">A História do Tênis <span class="destaque-verde">no Mundo</span></h2>
+                    <p class="secao-descricao">Das quadras de palácios franceses aos estádios lotados do Grand Slam.</p>
+                </div>
+
+                <div class="linha-tempo">
+
+                    <div class="time-item reveal">
+                        <div class="time-icone"><i class="fas fa-hand-back-fist"></i></div>
+                        <div class="time-conteudo">
+                            <span class="time-ano">Séc. XII</span>
+                            <h3>Jeu de Paume, na França</h3>
+                            <p>
+                                As origens do tênis remontam ao século XII, na França, quando um jogo chamado
+                                <em>Jeu de Paume</em> ("jogo da palma") era praticado utilizando apenas as mãos
+                                para rebater a bola.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="time-item reveal">
+                        <div class="time-icone"><i class="fas fa-table-tennis-paddle-ball"></i></div>
+                        <div class="time-conteudo">
+                            <span class="time-ano">1873</span>
+                            <h3>O Nascimento do Tênis Moderno</h3>
+                            <p>
+                                O oficial britânico Walter Clopton Wingfield desenvolveu as regras para um jogo
+                                disputado na grama, conhecido como <em>Lawn Tennis</em>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="time-item reveal">
+                        <div class="time-icone"><i class="fas fa-trophy"></i></div>
+                        <div class="time-conteudo">
+                            <span class="time-ano">1877</span>
+                            <h3>O Primeiro Wimbledon</h3>
+                            <p>
+                                Foi realizado o primeiro torneio de Wimbledon, na Inglaterra — até hoje o campeonato
+                                de tênis mais tradicional e prestigiado do mundo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="time-item reveal">
+                        <div class="time-icone"><i class="fas fa-olympic-games"></i></div>
+                        <div class="time-conteudo">
+                            <span class="time-ano">Atualidade</span>
+                            <h3>Grand Slam e Jogos Olímpicos</h3>
+                            <p>
+                                Os quatro torneios do Grand Slam — Australian Open, Roland Garros, Wimbledon e US Open
+                                — representam o mais alto nível da competição profissional, reunindo os maiores atletas
+                                do planeta.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mundo-lendas reveal">
+                    <h3><i class="fas fa-star"></i> Lendas que marcaram o esporte</h3>
+                    <div class="lendas-badges">
+                        <span>Rod Laver</span>
+                        <span>Björn Borg</span>
+                        <span>Martina Navratilova</span>
+                        <span>Steffi Graf</span>
+                        <span>Pete Sampras</span>
+                        <span>Serena Williams</span>
+<span>Roger Federer</span>
+                        <span>Rafael Nadal</span>
+                        <span>Novak Djokovic</span>
+                        <span>Gustavo Kuerten (Guga)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== HISTÓRIA NO BRASIL ===================== -->
+<section class="historia-brasil secao" id="brasil">
+            <div class="container">
+                <div class="secao-cabecalho reveal">
+                    <span class="secao-tag">No Brasil</span>
+                    <h2 class="secao-titulo">A História do Tênis <span class="destaque-amarelo">no Brasil</span></h2>
+                    <p class="secao-descricao">Uma paixão que atravessou o oceano e conquistou o coração dos brasileiros.</p>
+                </div>
+
+                <div class="cards-grid">
+
+<div class="card-historia reveal">
+                        <div class="card-imagem">
+                            <img src="_imagens/brasil.jpg" alt="Chegada do tênis ao Brasil">
+                        </div>
+                        <div class="card-corpo">
+                            <span class="card-ano">Final do Séc. XIX</span>
+                            <h3>A Chegada no Brasil</h3>
+                            <p>
+                                O tênis chegou ao Brasil trazido por imigrantes e comerciantes ingleses nas regiões
+                                Sul e Sudeste. Os primeiros clubes surgiram por volta da década de 1890, inicialmente
+                                atendendo à comunidade britânica instalada no país.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-historia reveal">
+                        <div class="card-imagem">
+                            <img src="https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_xl_2x/f_auto/primary/soermzf3uls51la3yafm" alt="Maria Esther Bueno" loading="lazy" referrerpolicy="no-referrer">
+                        </div>
+                        <div class="card-corpo">
+                            <span class="card-ano">1950 – 1960</span>
+                            <h3>Maria Esther Bueno</h3>
+                            <p>
+                                Uma das maiores tenistas de todos os tempos, conquistou diversos títulos de Grand Slam
+                                e levou o nome do país ao cenário internacional.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-historia reveal">
+                        <div class="card-imagem">
+                            <img src="_imagens/images (1).jpg" alt="Gustavo Kuerten, o Guga">
+                        </div>
+                        <div class="card-corpo">
+                            <span class="card-ano">Década de 1990</span>
+                            <h3>Guga, o Eterno Campeão</h3>
+                            <p>
+                                Gustavo Kuerten, o eterno "Guga", venceu três vezes Roland Garros e alcançou o 1º lugar
+                                no ranking mundial da ATP, inspirando milhares de brasileiros a praticarem o tênis.
+                            </p>
+                        </div>
+                    </div>
+
+</div>
+            </div>
+        </section>
+
+        <!-- ===================== SOBRE A TOTTISPIN ===================== -->
+        <section class="sobre-tottispin secao" id="sobre-tottispin">
+            <div class="container">
+                <div class="secao-cabecalho reveal">
+                    <span class="secao-tag">Nossa História</span>
+                    <h2 class="secao-titulo">Sobre a <span class="destaque-azul">Tottispin</span></h2>
+                    <p class="secao-descricao">Momentos que marcaram a trajetória da nossa academia e entraram para a história.</p>
+                </div>
+
+                <div class="cards-grid">
+                    <div class="card-historia reveal">
+                        <div class="card-imagem">
+                            <img src="_imagens/comeco.jpeg" alt="O começo da Tottispin">
+                        </div>
+                        <div class="card-corpo">
+                            <span class="card-ano">1950 · O Começo</span>
+                            <h3>O Começo</h3>
+                            <p>
+                                Essa foto foi registrada em 1950, no primeiro clube de tênis de Piracicaba, o então
+                                Piracicaba Tênis Clube. Sua localização era onde hoje é a Praça São Domingos Sávio,
+                                em frente ao Colégio Dom Bosco Cidade Alta.
+                            </p>
+                            <p>
+                                Nesta foto está Luiz Totti Filho (segurando a raquete) ao lado do irmão Pedro Totti.
+                                Ambos trabalhavam no clube: Luiz como boleiro e Pedro como professor e jogador que
+                                representava a cidade.
+                            </p>
+                            <p>
+                                Esta foto e outros relatos estão no livro <em>Memórias do Bairro Alto</em>, de Luiz
+                                Nascimento, com apoio do Instituto Histórico e Geográfico de Piracicaba.
+                            </p>
+                        </div>
+                    </div>
+
+<div class="card-historia reveal">
+                        <div class="card-imagem">
+                            <img src="_imagens/historia.jpeg" alt="Nossa história na Tottispin">
+                        </div>
+                        <div class="card-corpo">
+                            <span class="card-ano">Campeonato Brasileiro</span>
+                            <h3>Nossa História</h3>
+                            <p>
+                                Essa foto é muito marcante para a academia. Em um campeonato Brasileiro, conseguimos
+                                que três atletas chegassem às finais. Curiosamente, os três jogaram simultaneamente e
+                                em quadras ao lado.
+                            </p>
+                            <p>
+                                Nos sentimos realizados e orgulhosos, pois alcançar uma final de Brasileiro já é
+                                difícil, imagine três finalistas de uma vez. Na foto, Maurício Cabrini, Leonardo Kirche
+                                e Fernanda Bini.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card-historia reveal">
+                        <div class="card-imagem">
+                            <img src="_imagens/totti.jpeg" alt="Totti, fundador da Tottispin">
+                        </div>
+                        <div class="card-corpo">
+                            <span class="card-ano">O Fundador</span>
+                            <h3>Totti</h3>
+                            <p>
+                                Ao lado de sua neta, Totti representa a essência da Academia Tottispin. Como um de seus
+                                fundadores, dedicou sua vida ao desenvolvimento do tênis e deixou um legado de paixão,
+                                dedicação e compromisso que permanece vivo em cada geração de alunos e atletas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- ===================== RANKING DE INTEREQUIPES ===================== -->
+        <section class="ranking secao" id="ranking">
+            <div class="container">
+                <div class="secao-cabecalho reveal">
+                    <span class="secao-tag secao-tag-clara">Como Funciona</span>
+                    <h2 class="secao-titulo">Ranking <span class="destaque-amarelo">Tottispin</span></h2>
+                    <p class="secao-descricao">
+                        Uma disputa completa ao longo do ano, dividida em duas temporadas. Participe, evolua e
+                        suba no ranking da academia!
+                    </p>
+                </div>
+
+                <div class="ranking-calendario">
+
+                    <div class="ranking-temporada reveal">
+                        <div class="temporada-cabecalho">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <h3>Ranking de Simples</h3>
+                                <span class="temporada-periodo">Fevereiro - Junho</span>
+                            </div>
+                        </div>
+                        <ul class="temporada-niveis">
+                            <li><span>Principiante</span></li>
+                            <li><span>Intermediário C</span></li>
+                            <li><span>Intermediário B</span></li>
+                            <li><span>Intermediário A</span></li>
+                            <li><span>Avançado</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="ranking-temporada reveal">
+                        <div class="temporada-cabecalho">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h3>Ranking Interequipes (Duplas)</h3>
+                                <span class="temporada-periodo">Agosto - Dezembro</span>
+                            </div>
+                        </div>
+                        <ul class="temporada-niveis">
+                            <li><span>Principiante</span></li>
+                            <li><span>Intermediário C</span></li>
+                            <li><span>Intermediário B</span></li>
+                            <li><span>Intermediário A</span></li>
+                            <li><span>Avançado</span></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="ranking-info extra reveal">
+                    <div class="ranking-info-icone"><i class="fas fa-trophy"></i></div>
+                    <div class="ranking-info-texto">
+                        <h3>Novidade: Ranking de Interequipes</h3>
+                        <p>
+                            A Tottispin está lançando o <strong>Ranking de Interequipes</strong>, uma competição
+                            emocionante que reunirá equipes em disputas acirradas dentro da nossa academia. O início
+                            oficial das disputas é <strong>1 de Agosto de 2026</strong>.
+                        </p>
+                        <ul class="ranking-lista">
+                            <li><i class="fas fa-check-circle"></i> Disputas entre equipes em quadrinhos exclusivos</li>
+                            <li><i class="fas fa-check-circle"></i> Pontuação acumulada ao longo da temporada</li>
+                            <li><i class="fas fa-check-circle"></i> Premiação especial para as melhores equipes</li>
+                            <li><i class="fas fa-check-circle"></i> Participe e represente sua equipe na Tottispin</li>
+                        </ul>
+                        <a href="#contato" class="btn btn-amarelo"><i class="fas fa-sign-in-alt"></i> Quero Participar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== MAIS QUE UM ESPORTE ===================== -->
+        <section class="esporte secao">
+            <div class="container">
+                <div class="esporte-grid">
+<div class="esporte-imagem reveal">
+                        <img src="_imagens/atpchallenger.jpg" alt="Quadra da Tottispin">
+                    </div>
+                    <div class="esporte-conteudo reveal">
+                        <span class="secao-tag">Filosofia</span>
+                        <h2 class="secao-titulo">Mais do que <span class="destaque-verde">um esporte</span></h2>
+                        <p>
+                            Na nossa academia, acreditamos que o tênis transforma vidas. Cada aula representa uma
+                            oportunidade de aprender, evoluir, fazer novas amizades e superar desafios.
+                        </p>
+                        <p>
+                            Seja para quem busca alto rendimento, condicionamento físico, diversão ou simplesmente um
+                            novo hobby, o tênis oferece uma experiência completa, capaz de acompanhar o aluno por toda
+                            a vida.
+                        </p>
+                        <div class="esporte-destaques">
+                            <div class="destaque-item">
+                                <i class="fas fa-heart-pulse"></i>
+                                <h4>Saúde Física</h4>
+                                <p>Cardio, coordenação, equilíbrio e reflexos.</p>
+                            </div>
+                            <div class="destaque-item">
+                                <i class="fas fa-brain"></i>
+                                <h4>Mente</h4>
+                                <p>Autoconfiança, raciocínio e concentração.</p>
+                            </div>
+                            <div class="destaque-item">
+                                <i class="fas fa-users"></i>
+                                <h4>Socialização</h4>
+                                <p>Amizades e espírito esportivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== GALERIA ===================== -->
+        <section class="galeria secao" id="galeria">
+            <div class="container">
+                <div class="secao-cabecalho reveal">
+                    <span class="secao-tag">Galeria</span>
+                    <h2 class="secao-titulo">Momentos da <span class="destaque-verde">Tottispin</span></h2>
+                    <p class="secao-descricao">Clique nas imagens para ampliar e explorar o nosso universo.</p>
+                </div>
+<div class="galeria-grid" id="galeriaGrid">
+                    <div class="galeria-item reveal" data-img="_imagens/tottispin-academia-de-tenis.jpg" onclick="abrirGaleria(0)">
+                        <img src="_imagens/tottispin-academia-de-tenis.jpg" alt="Academia Tottispin">
+                        <div class="galeria-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Nossa Academia</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item reveal" data-img="_imagens/Ranking.jpg" onclick="abrirGaleria(1)">
+                        <img src="_imagens/Ranking.jpg" alt="Ranking de Interequipes">
+                        <div class="galeria-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Ranking de Interequipes</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item reveal" data-img="_imagens/atpchallenger.jpg" onclick="abrirGaleria(2)">
+                        <img src="_imagens/atpchallenger.jpg" alt="ATP Challenger">
+                        <div class="galeria-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Tênis Profissional</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item reveal" data-img="_imagens/images.jpg" onclick="abrirGaleria(3)">
+                        <img src="_imagens/images.jpg" alt="História do tênis">
+                        <div class="galeria-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>História do Tênis</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item reveal" data-img="_imagens/images (1).jpg" onclick="abrirGaleria(4)">
+                        <img src="_imagens/images%20(1).jpg" alt="Tênis Brasileiro">
+                        <div class="galeria-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Tênis Brasileiro</span>
+                        </div>
+                    </div>
+                    <div class="galeria-item reveal" data-img="_imagens/logo.jpeg" onclick="abrirGaleria(5)">
+                        <img src="_imagens/logo.jpeg" alt="Logo Tottispin">
+                        <div class="galeria-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Marca Tottispin</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== FALE CONOSCO ===================== -->
+        <section class="contato secao" id="contato">
+            <div class="container">
+                <div class="secao-cabecalho reveal">
+                    <span class="secao-tag">Contato</span>
+                    <h2 class="secao-titulo">Fale <span class="destaque-amarelo">Conosco</span></h2>
+                    <p class="secao-descricao">Tem alguma dúvida sobre nossos cursos, horários ou o Ranking de Interequipes? Envie sua mensagem!</p>
+                </div>
+                <div class="contato-grid">
+                    <div class="contato-info reveal">
+                        <h3>Vamos conversar?</h3>
+                        <p>Responderemos o mais rápido possível. Escolha o canal que preferir:</p>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Endereço</strong>
+                                <span>Rua Argino da Silva Leite, 71</span>
+                            </div>
+                        </div>
+<div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Horários</strong>
+                                <span class="horario-item">Segunda a Sexta: 6h às 22h</span>
+                                <span class="horario-item">Sábado e Domingo: 6h às 12h</span>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <strong>Ranking de Interequipes</strong>
+                                <span>Início: 1 de Agosto de 2026</span>
+                            </div>
+                        </div>
+                        <div class="info-item redes">
+                            <i class="fas fa-share-alt"></i>
+                            <div class="redes-sociais">
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                                <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contato-form reveal" id="contatoForm" action="https://formsubmit.co/lucas@amatools.com.br" method="POST" novalidate>
+                        <div class="form-grupo">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                            <span class="erro" id="erroNome"></span>
+                        </div>
+                        <div class="form-linha">
+                            <div class="form-grupo">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
+                                <span class="erro" id="erroEmail"></span>
+                            </div>
+                            <div class="form-grupo">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+                                <span class="erro" id="erroTelefone"></span>
+                            </div>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="assunto">Assunto</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="" selected disabled>Selecione o assunto</option>
+                                <option value="cursos">Cursos e Aulas</option>
+                                <option value="ranking">Ranking de Interequipes</option>
+                                <option value="horarios">Horários</option>
+                                <option value="duvidas">Dúvidas gerais</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                            <span class="erro" id="erroAssunto"></span>
+                        </div>
+                        <div class="form-grupo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+                            <span class="erro" id="erroMensagem"></span>
+                        </div>
+                        <button type="submit" class="btn btn-verde btn-form"><i class="fas fa-paper-plane"></i> Enviar Mensagem</button>
+                        <div class="form-sucesso" id="formSucesso">
+                            <i class="fas fa-check-circle"></i>
+                            <p><strong>Mensagem enviada com sucesso!</strong> Obrigado por entrar em contato. Em breve retornaremos.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CHAMADA FINAL ===================== -->
+        <section class="chamada-final">
+            <div class="container">
+                <h2 class="reveal">Venha conhecer a <span class="destaque-amarelo">Tottispin</span></h2>
+                <p class="reveal">Descubra por que milhões de pessoas ao redor do mundo escolheram o tênis como seu esporte favorito.</p>
+                <a href="#contato" class="btn btn-amarelo reveal"><i class="fas fa-rocket"></i> Comece sua História</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===================== RODAPÉ ===================== -->
+    <footer class="rodape">
+        <div class="container rodape-grid">
+            <div class="rodape-col">
+                <a href="#home" class="logo rodape-logo">
+                    <img src="_imagens/logo.jpeg" alt="Logo Tottispin" class="logo-img">
+                    <span class="logo-texto">Tottispin</span>
+                </a>
+                <p>
+                    Academia de Tênis dedicada a formar atletas e apaixonados pelo esporte, unindo
+                    saúde, lazer, competição e qualidade de vida.
+                </p>
+            </div>
+            <div class="rodape-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+<li><a href="#mundo">História no Mundo</a></li>
+                    <li><a href="#brasil">História no Brasil</a></li>
+                    <li><a href="#sobre-tottispin">Sobre a Tottispin</a></li>
+                    <li><a href="#ranking">Ranking de Interequipes</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Fale Conosco</a></li>
+                </ul>
+            </div>
+            <div class="rodape-col">
+                <h4>Hora do Jogo</h4>
+<ul>
+<li><i class="fas fa-clock"></i> Seg. a Sex.: 6h às 22h</li>
+                    <li><i class="fas fa-clock"></i> Sábado e Domingo: 6h às 12h</li>
+                    <li><i class="fas fa-trophy"></i> Ranking: 01/08/2026</li>
+                </ul>
+            </div>
+            <div class="rodape-col">
+                <h4>Localização</h4>
+                <div class="rodape-mapa-icone">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <address>
+                    <strong>Academia Tottispin</strong><br>
+                    Rua Argino da Silva Leite, 71<br>
+                    <span class="rodape-cidade">Piracicaba - SP</span>
+                </address>
+            </div>
+        </div>
+        <div class="rodape-base">
+            <div class="container">
+                <p>&copy; 2026 Tottispin Academia de Tênis. Todos os direitos reservados.</p>
+                <p>Feito com <i class="fas fa-heart"></i> para os apaixonados por tênis.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===================== LIGHTBOX ===================== -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-fechar" id="lightboxFechar" aria-label="Fechar"><i class="fas fa-times"></i></button>
+        <button class="lightbox-setas lightbox-anterior" id="lightboxAnterior" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+        <img src="" alt="Imagem ampliada" id="lightboxImg">
+        <button class="lightbox-setas lightbox-proximo" id="lightboxProximo" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
+        <span class="lightbox-legenda" id="lightboxLegenda"></span>
+    </div>
+
+    <!-- ===================== MODAL DE CONFIRMAÇÃO DE ENVIO ===================== -->
+    <div class="modal-overlay" id="modalSucesso" aria-hidden="true">
+        <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
+            <button class="modal-fechar" id="modalSucessoFechar" aria-label="Fechar"><i class="fas fa-times"></i></button>
+            <div class="modal-icone">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3 id="modalTitulo">Mensagem enviada com sucesso!</h3>
+            <p>Obrigado por entrar em contato com a <strong>Tottispin</strong>.<br>Em breve retornaremos pelo e-mail informado.</p>
+            <div class="modal-botoes">
+                <button type="button" class="btn btn-verde" id="modalSucessoEnviarOutra"><i class="fas fa-envelope"></i> Enviar outra mensagem</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="_javascript/funcoes.js"></script>
+</body>
+</html>
+
