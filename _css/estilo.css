@@ -970,7 +970,7 @@ ul { list-style: none; }
 .rodape { background: var(--fundo); color: rgba(255,255,255,0.8); }
 .rodape-grid {
     display: grid;
-    grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+    grid-template-columns: 1.4fr 1fr 1.4fr 1.2fr;
     gap: 40px;
     padding: 60px 0;
 }
@@ -982,6 +982,7 @@ ul { list-style: none; }
 .rodape-col ul li a { transition: var(--transicao); }
 .rodape-col ul li a:hover { color: var(--amarelo); padding-left: 5px; }
 .rodape-col ul li i { color: var(--amarelo); margin-right: 8px; }
+.rodape-col ul li.horario-linha { white-space: nowrap; }
 .rodape-mapa-icone {
     font-size: 0.9rem;
     color: var(--amarelo);
