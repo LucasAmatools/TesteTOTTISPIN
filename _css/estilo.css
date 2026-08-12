@@ -231,11 +231,10 @@ ul { list-style: none; }
     opacity: 0.18;
     filter: blur(2px);
 }
-/* Imagem principal exibida no tamanho original, sem distorção */
+/* Imagem principal exibida com melhor qualidade visual */
 .hero-imagem-wrapper { margin-bottom: 28px; }
 .hero-imagem {
-    width: auto;
-    max-width: min(520px, 90%);
+    width: min(520px, 90%);
     height: auto;
     max-height: 40vh;
     margin: 0 auto;
@@ -243,7 +242,9 @@ ul { list-style: none; }
     border: 3px solid var(--amarelo);
     box-shadow: 0 20px 50px rgba(0,0,0,0.55);
     background: rgba(255,255,255,0.08);
-    object-fit: contain;
+    object-fit: cover;
+    aspect-ratio: 4 / 3;
+    display: block;
 }
 .hero-overlay {
     position: absolute;
