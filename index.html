@@ -498,98 +498,29 @@
         <!-- ===================== FALE CONOSCO ===================== -->
         <section class="contato secao" id="contato">
             <div class="container">
-                <div class="secao-cabecalho reveal">
-                    <span class="secao-tag">Contato</span>
-                    <h2 class="secao-titulo">Fale <span class="destaque-amarelo">Conosco</span></h2>
-                    <p class="secao-descricao">Tem alguma dúvida sobre nossos cursos, horários ou o Ranking de Interequipes? Envie sua mensagem!</p>
-                </div>
-                <div class="contato-grid">
-                    <div class="contato-info reveal">
-                        <h3>Vamos conversar?</h3>
-                        <p>Responderemos o mais rápido possível. Escolha o canal que preferir:</p>
-                        <div class="info-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
-                                <strong>Endereço</strong>
-                                <span>Rua Argino da Silva Leite, 70</span>
-                            </div>
-                        </div>
-<div class="info-item">
-                            <i class="fas fa-clock"></i>
-                            <div>
-                                <strong>Horários</strong>
-                                <span class="horario-item">Segunda a Sexta: 6h às 22h</span>
-                                <span class="horario-item">Sábado e Domingo: 6h às 12h</span>
-                            </div>
-                        </div>
-                        <div class="info-item">
-                            <i class="fas fa-trophy"></i>
-                            <div>
-                                <strong>Ranking de Interequipes</strong>
-                                <span>Início: 1 de Agosto de 2026</span>
-                            </div>
-                        </div>
-                        <div class="info-item redes">
-                            <i class="fas fa-share-alt"></i>
-<div class="redes-sociais">
-                                <a href="https://www.instagram.com/tottispin/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                                <a href="https://web.facebook.com/tottispin/?locale=pt_BR&_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://wa.me/5519991916324" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <div class="contato-visual reveal">
+                    <div class="contato-imagem-wrapper">
+                        <img src="_imagens/logo.jpeg" alt="Entre em contato" class="contato-imagem">
+                        <div class="contato-overlay">
+                            <h2>Vamos conversar? <span class="destaque-amarelo">👋</span></h2>
+                            <p class="contato-texto">Fale conosco pelo WhatsApp ou Instagram</p>
+                            <div class="contato-botoes">
+                                <a href="https://wa.me/5519991916324" target="_blank" rel="noopener noreferrer" class="btn btn-verde">
+                                    <i class="fab fa-whatsapp"></i> WhatsApp
+                                </a>
+                                <a href="https://www.instagram.com/tottispin/" target="_blank" rel="noopener noreferrer" class="btn btn-rosa">
+                                    <i class="fab fa-instagram"></i> Instagram
+                                </a>
                             </div>
                         </div>
                     </div>
-
-                    <form class="contato-form reveal" id="contatoForm" action="https://formsubmit.co/lucas@amatools.com.br" method="POST" novalidate>
-                        <div class="form-grupo">
-                            <label for="nome">Nome completo</label>
-                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-                            <span class="erro" id="erroNome"></span>
-                        </div>
-                        <div class="form-linha">
-                            <div class="form-grupo">
-                                <label for="email">E-mail</label>
-                                <input type="email" id="email" name="email" placeholder="seuemail@email.com" required>
-                                <span class="erro" id="erroEmail"></span>
-                            </div>
-                            <div class="form-grupo">
-                                <label for="telefone">Telefone</label>
-                                <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
-                                <span class="erro" id="erroTelefone"></span>
-                            </div>
-                        </div>
-                        <div class="form-grupo">
-                            <label for="assunto">Assunto</label>
-                            <select id="assunto" name="assunto" required>
-                                <option value="" selected disabled>Selecione o assunto</option>
-                                <option value="cursos">Cursos e Aulas</option>
-                                <option value="ranking">Ranking de Interequipes</option>
-                                <option value="horarios">Horários</option>
-                                <option value="duvidas">Dúvidas gerais</option>
-                                <option value="outro">Outro</option>
-                            </select>
-                            <span class="erro" id="erroAssunto"></span>
-                        </div>
-                        <div class="form-grupo">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
-                            <span class="erro" id="erroMensagem"></span>
-                        </div>
-                        <button type="submit" class="btn btn-verde btn-form"><i class="fas fa-paper-plane"></i> Enviar Mensagem</button>
-                        <div class="form-sucesso" id="formSucesso">
-                            <i class="fas fa-check-circle"></i>
-                            <p><strong>Mensagem enviada com sucesso!</strong> Obrigado por entrar em contato. Em breve retornaremos.</p>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
 
         <!-- ===================== CHAMADA FINAL ===================== -->
         <section class="chamada-final">
             <div class="container">
                 <h2 class="reveal">Venha conhecer a <span class="destaque-amarelo">Tottispin</span></h2>
                 <p class="reveal">Descubra por que milhões de pessoas ao redor do mundo escolheram o tênis como seu esporte favorito.</p>
-                <a href="#contato" class="btn btn-amarelo reveal"><i class="fas fa-rocket"></i> Comece sua História</a>
+                <div class="chamada-texto reveal"><i class="fas fa-rocket"></i> Comece sua História</div>
             </div>
         </section>
     </main>
@@ -653,21 +584,6 @@
         <img src="" alt="Imagem ampliada" id="lightboxImg">
         <button class="lightbox-setas lightbox-proximo" id="lightboxProximo" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
         <span class="lightbox-legenda" id="lightboxLegenda"></span>
-    </div>
-
-    <!-- ===================== MODAL DE CONFIRMAÇÃO DE ENVIO ===================== -->
-    <div class="modal-overlay" id="modalSucesso" aria-hidden="true">
-        <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="modalTitulo">
-            <button class="modal-fechar" id="modalSucessoFechar" aria-label="Fechar"><i class="fas fa-times"></i></button>
-            <div class="modal-icone">
-                <i class="fas fa-check-circle"></i>
-            </div>
-            <h3 id="modalTitulo">Mensagem enviada com sucesso!</h3>
-            <p>Obrigado por entrar em contato com a <strong>Tottispin</strong>.<br>Em breve retornaremos pelo e-mail informado.</p>
-            <div class="modal-botoes">
-                <button type="button" class="btn btn-verde" id="modalSucessoEnviarOutra"><i class="fas fa-envelope"></i> Enviar outra mensagem</button>
-            </div>
-        </div>
     </div>
 
     <script src="_javascript/funcoes.js"></script>
