@@ -92,6 +92,13 @@ ul { list-style: none; }
 }
 .btn-contorno:hover { background: var(--branco); color: var(--escuro); border-color: var(--branco); }
 
+.btn-grande {
+    width: 100%;
+    padding: 16px 40px;
+    font-size: 1rem;
+    justify-content: center;
+}
+
 /* ---------- Botão voltar ao topo ---------- */
 .scroll-top {
     position: fixed;
@@ -755,6 +762,42 @@ ul { list-style: none; }
 .ranking-info-texto .ranking-lista { margin-bottom: 20px; }
 .ranking-info-texto .ranking-lista li { color: var(--branco); }
 
+/* ---------- Ranking: acompanhar ao vivo ---------- */
+.ranking-placar {
+    background: linear-gradient(135deg, rgba(0,151,57,0.08), rgba(26,95,180,0.08));
+    border: 2px solid rgba(0,151,57,0.25);
+    border-radius: var(--raio);
+    padding: 50px 40px;
+    backdrop-filter: blur(4px);
+}
+.ranking-placar .secao-cabecalho {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.ranking-placar .secao-cabecalho .secao-descricao {
+    color: var(--branco) !important;
+}
+.ranking-placar .secao-descricao {
+    color: var(--branco);
+}
+.ranking-placar-conteudo .secao-descricao {
+    opacity: 0.75;
+}
+.ranking-placar-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    text-align: center;
+}
+.ranking-placar-texto {
+    color: var(--escuro);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    max-width: 700px;
+    font-weight: 500;
+}
+
 /* ---------- Mais que um esporte ---------- */
 .esporte { background: var(--claro); }
 .esporte-grid {
@@ -1246,4 +1289,6 @@ ul { list-style: none; }
     .hero-botoes { flex-direction: column; align-items: center; }
     .hero-botoes .btn { width: 100%; justify-content: center; }
     .contato-form { padding: 25px; }
+    .ranking-placar { padding: 25px 15px; }
+    .btn-grande { font-size: 0.9rem; padding: 14px 20px; }
 }
