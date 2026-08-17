@@ -235,6 +235,7 @@ function abrirGaleria(indice) {
     const img = item.querySelector('img');
     const legendaEl = item.querySelector('.galeria-overlay span');
     const src = (item.dataset && item.dataset.img) ? item.dataset.img : (img ? img.src : '');
+    const legenda = (item.dataset && item.dataset.legenda) ? item.dataset.legenda : (legendaEl ? legendaEl.textContent : '');
 
     const lightbox = obterLightbox();
     const lightboxImg = obterImgLightbox();
@@ -242,7 +243,7 @@ function abrirGaleria(indice) {
 
     lightboxImg.src = codificarUrl(src);
     lightboxImg.alt = legendaEl ? legendaEl.textContent : 'Imagem ampliada';
-    lightboxLegenda.textContent = legendaEl ? legendaEl.textContent : '';
+    lightboxLegenda.textContent = legenda;
     lightbox.classList.add('ativo');
     lightbox.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
